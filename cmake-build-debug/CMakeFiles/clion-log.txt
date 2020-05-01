@@ -1,0 +1,4 @@
+"D:\DLS\environment\clion\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\DLS\Multi-task Learning\project\tree-model\mtree"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug

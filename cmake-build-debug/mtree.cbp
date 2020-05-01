@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mtree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mtree">
+				<Option output="D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/mtree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 mtree"/>
+					<CompileFile command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mtree/fast">
+				<Option output="D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/mtree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/DLS/environment/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 mtree/fast"/>
+					<CompileFile command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DLS/environment/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/DLS/Multi-task Learning/project/tree-model/mtree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Booster.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Booster.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Dataset.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Dataset.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/LinearLoss.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/LinearLoss.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Loss.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/ModelSelection.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/ModelSelection.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/MultiTaskUpdater.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/MultiTaskUpdater.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Node.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Node.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Random.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/SingleTaskUpdater.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/SingleTaskUpdater.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/ThreadPool.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/Updater.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/error.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/main.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/tree.cpp">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/tree.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/utils.h">
+			<Option target="mtree"/>
+		</Unit>
+		<Unit filename="D:/DLS/Multi-task Learning/project/tree-model/mtree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
